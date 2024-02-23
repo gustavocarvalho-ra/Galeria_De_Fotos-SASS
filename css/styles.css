@@ -70,5 +70,54 @@ body ul {
   justify-content: space-between;
   padding: 0;
 }
+.gallery-card {
+  width: 31%;
+  height: 400px;
+  margin-bottom: 4%;
+}
+.gallery-card-title {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.gallery-card-btn {
+  padding: 0.6rem 2rem;
+  border: 2px solid #fff;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.gallery-card-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+.gallery #card-1 {
+  background-image: url("../img/1.jpeg");
+}
+.gallery #card-2 {
+  background-image: url("../img/2.jpg");
+}
+.gallery #card-3 {
+  background-image: url("../img/3.jpg");
+}
+.gallery #card-4 {
+  background-image: url("../img/4.jpg");
+}
+.gallery #card-5 {
+  background-image: url("../img/5.jpg");
+}
+.gallery #card-6 {
+  background-image: url("../img/6.jpeg");
+}
+.gallery #card-7 {
+  background-image: url("../img/7.jpg");
+}
+.gallery #card-8 {
+  background-image: url("../img/8.png");
+}
+.gallery #card-9 {
+  background-image: url("../img/9.jpg");
+}
 
 /*# sourceMappingURL=styles.css.map */
