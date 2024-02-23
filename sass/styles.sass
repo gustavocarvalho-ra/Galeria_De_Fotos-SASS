@@ -1,4 +1,24 @@
 @use 'variables'
+@use 'mixins'
 
-h2
-  color: variables.$secondary-color
+*
+  font-family: 'PT Serif'
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+
+body
+  background-color: variables.$bg-color
+  color: variables.$text-color
+
+  a
+    color: variables.$text-color
+    text-decoration: none
+    transition: .4s
+
+  ul
+    list-style: none
+
+.header
+  display: flex
+  justify-content: space-between

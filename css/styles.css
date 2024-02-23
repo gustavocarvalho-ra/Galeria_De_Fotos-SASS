@@ -1,5 +1,26 @@
-h2 {
-  color: #20c997;
+* {
+  font-family: "PT Serif";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #777;
+}
+body a {
+  color: #777;
+  text-decoration: none;
+  transition: 0.4s;
+}
+body ul {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=styles.css.map */
