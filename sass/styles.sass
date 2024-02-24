@@ -24,6 +24,9 @@ body
   justify-content: space-between
   @include mixins.container
 
+  @include mixins.mobile
+    padding: 1.1rem
+
   &-brand
     color: variables.$primary-color
     font-size: 3rem
@@ -34,6 +37,9 @@ body
     ul
       height: 100%
       @include mixins.flex-center
+
+      @include mixins.mobile
+        display: none
 
       li
         margin: 0 1rem
@@ -53,6 +59,9 @@ body
       @include mixins.flex-center
       height: 100%
 
+      @include mixins.mobile
+        display: none
+
       li
         margin: 0 1rem
 
@@ -68,10 +77,20 @@ body
   justify-content: space-between
   padding: 0
 
+  @include mixins.mobile
+    flex-direction: column
+
   &-card
     width: 31%
     height: 400px
     margin-bottom: 4%
+    @include mixins.flex-center
+    flex-direction: column
+    color: variables.$primary-color
+
+    @include mixins.mobile
+      width: 90%
+      margin-bottom: 6%
 
     &-title
       font-size: 2rem
@@ -92,19 +111,35 @@ body
 
   #card-1
     @include mixins.bg-img('1.jpeg')
+
   #card-2
     @include mixins.bg-img('2.jpg')
+
   #card-3
     @include mixins.bg-img('3.jpg')
+
   #card-4
     @include mixins.bg-img('4.jpg')
+
   #card-5
     @include mixins.bg-img('5.jpg')
+
   #card-6
     @include mixins.bg-img('6.jpeg')
+
   #card-7
     @include mixins.bg-img('7.jpg')
+
   #card-8
     @include mixins.bg-img('8.png')
+
   #card-9
     @include mixins.bg-img('9.jpg')
+  
+footer
+  text-align: center
+  padding-bottom: 2rem
+
+  span
+    font-weight: bold
+    color: variables.$secondary-color
