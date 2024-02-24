@@ -51,10 +51,10 @@ body ul {
   font-size: 0.8rem;
 }
 .header-navbar ul li .active {
-  color: #20c997;
+  color: #c92020;
 }
 .header-navbar ul li a:hover {
-  color: #20c997;
+  color: #c92020;
 }
 .header-social-media ul {
   display: flex;
@@ -247,7 +247,7 @@ footer {
 }
 footer span {
   font-weight: bold;
-  color: #20c997;
+  color: #c92020;
 }
 
 /*# sourceMappingURL=styles.css.map */
